@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CsvHelper\" />
     <Folder Include="Linq\" />
   </ItemGroup>
 

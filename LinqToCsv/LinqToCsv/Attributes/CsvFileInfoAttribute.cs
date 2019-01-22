@@ -5,7 +5,7 @@ using System.Text;
 
 namespace LinqToCsv.Attributes
 {
-	[AttributeUsage(AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
+	[AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = true)]
 	public class CsvFileInfoAttribute: Attribute
 	{
 		private CsvSettings _csvSettings;
