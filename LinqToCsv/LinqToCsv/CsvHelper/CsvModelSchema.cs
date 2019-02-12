@@ -79,6 +79,14 @@ namespace LinqToCsv.CsvHelper
 			return pi;
 		}
 
+		internal IEnumerable<CsvColumnInfoAttribute> GetAllColumns()
+		{
+			foreach(var key in this._schema.Keys)
+			{
+				yield return key;
+			}
+		}
+
 		private void AddBinding(CsvColumnInfoAttribute attribute, PropertyInfo propertyInfo)
 		{
 			this._schema.Add(attribute, propertyInfo);
