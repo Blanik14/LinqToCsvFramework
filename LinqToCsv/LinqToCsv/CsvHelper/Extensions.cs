@@ -30,8 +30,7 @@ namespace LinqToCsv.CsvHelper
 				sb.Append(c);
 			}
 
-			if(sb.Length > 0)
-				cells.Add(sb.ToString());
+			cells.Add(sb.ToString());
 
 			return cells.ToArray();
 		}

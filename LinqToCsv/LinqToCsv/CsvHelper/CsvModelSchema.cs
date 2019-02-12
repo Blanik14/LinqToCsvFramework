@@ -40,7 +40,7 @@ namespace LinqToCsv.CsvHelper
 		{
 			this.ModelType = modelType;
 
-			var properties = this.ModelType.GetProperties(System.Reflection.BindingFlags.Public);
+			var properties = this.ModelType.GetProperties();
 			foreach(PropertyInfo property in properties)
 			{
 				var attribute = property.GetCustomAttribute<CsvColumnInfoAttribute>();

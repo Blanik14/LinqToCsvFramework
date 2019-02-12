@@ -75,11 +75,17 @@ namespace LinqToCsv.Csv
 		{
 			using(StreamReader sr = new StreamReader(new FileStream(this.Path, FileMode.Open, FileAccess.Read)))
 			{
+				bool readHeaders = true;
 				while(!sr.EndOfStream)
 				{
-					if(this.CsvSettings.HasColumnHeaders)
-						continue;
 					var line = sr.ReadLine();
+
+					if(this.CsvSettings.HasColumnHeaders && readHeaders)
+					{
+						readHeaders = false;
+						continue;
+					}
+					
 					var cells = this.SplitLine(line);
 
 					var model = Activator.CreateInstance<T>();

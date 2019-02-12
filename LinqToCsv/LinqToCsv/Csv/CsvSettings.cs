@@ -27,6 +27,7 @@ namespace LinqToCsv.Csv
 			this.Delimiter = delimiter;
 			this.HasColumnHeaders = hasColumnHeaders;
 			this.Separator = separator;
+			this.HasSeparator = true;
 		}
 	}
 }
