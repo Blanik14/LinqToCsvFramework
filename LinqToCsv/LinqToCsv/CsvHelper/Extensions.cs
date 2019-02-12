@@ -15,7 +15,11 @@ namespace LinqToCsv.CsvHelper
 			foreach(var c in s)
 			{
 				if(c == delimiter)
+				{
 					ignoreSeparator = !ignoreSeparator;
+					continue;
+				}
+
 				if(c == separator && !ignoreSeparator)
 				{
 					cells.Add(sb.ToString());
