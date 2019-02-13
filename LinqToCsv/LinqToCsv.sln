@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqToCsv", "LinqToCsv\LinqToCsv.csproj", "{5E89FA69-F449-4D36-BB18-337CF5F95252}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToCsvTest", "LinqToCsvTest\LinqToCsvTest.csproj", "{AD2FB008-8D5E-4BCF-81BC-05574B04C686}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqToCsvTest", "LinqToCsvTest\LinqToCsvTest.csproj", "{AD2FB008-8D5E-4BCF-81BC-05574B04C686}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
