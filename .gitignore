@@ -328,3 +328,19 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+/LinqToCsv/CsvTest/Files/TestData.csv
+/LinqToCsv/CsvTest/Models/Haus.cs
+/LinqToCsv/CsvTest/Models/Person.cs
+/LinqToCsv/CsvTest/CsvTest.csproj
+/LinqToCsv/CsvTest/Program.cs
+/LinqToCsv/Bericht20190212-2221.diagsession
+/LinqToCsv/Bericht20190212-2204.diagsession
+/LinqToCsv/UnitTestProject1/Tests.cs
+/LinqToCsv/UnitTestProject1/Person.cs
+/LinqToCsv/UnitTestProject1/UnitTestProject1.csproj
+/LinqToCsv/UnitTestProject1/packages.config
+/LinqToCsv/UnitTestProject1/Properties/AssemblyInfo.cs
+/LinqToCsv/UnitTestProject1/Models/Person.cs
+/LinqToCsv/UnitTestProject1/Files/TestData.csv
+/LinqToCsv/.vscode/launch.json
+/LinqToCsv/.vscode/tasks.json
